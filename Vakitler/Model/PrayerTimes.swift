@@ -8,6 +8,27 @@
 import Foundation
 import SwiftUI
 
+class PrayerTime {
+    var type: PrayerTimes
+    var time: Date
+    
+    init(type: PrayerTimes, time: Date) {
+        self.type = type
+        self.time = time
+    }
+    
+    convenience init(type: PrayerTimes, hour: Int, minute: Int) {
+        var components = DateComponents()
+        components.hour = hour
+        components.minute = minute
+        components.timeZone = TimeZone.current
+        components.calendar = Calendar.current
+        
+        var time = components.isValidDate ?  components.date! : Date()
+        self.init(type: type, time: time)
+    }
+}
+
 enum PrayerTimes: String {
     case fajr
     case sun
