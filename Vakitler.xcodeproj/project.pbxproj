@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75A45D1C2B220A5100FC9574 /* VakitlerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A45D1B2B220A5100FC9574 /* VakitlerApp.swift */; };
+		75A45D1E2B220A5100FC9574 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A45D1D2B220A5100FC9574 /* ContentView.swift */; };
+		75A45D202B220A5200FC9574 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75A45D1F2B220A5200FC9574 /* Assets.xcassets */; };
+		75A45D232B220A5200FC9574 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75A45D222B220A5200FC9574 /* Preview Assets.xcassets */; };
+		75A45D2D2B220A5200FC9574 /* VakitlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A45D2C2B220A5200FC9574 /* VakitlerTests.swift */; };
+		75A45D372B220A5300FC9574 /* VakitlerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A45D362B220A5300FC9574 /* VakitlerUITests.swift */; };
+		75A45D392B220A5300FC9574 /* VakitlerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A45D382B220A5300FC9574 /* VakitlerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75A45D292B220A5200FC9574 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75A45D102B220A5100FC9574 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75A45D172B220A5100FC9574;
+			remoteInfo = Vakitler;
+		};
+		75A45D332B220A5300FC9574 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75A45D102B220A5100FC9574 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75A45D172B220A5100FC9574;
+			remoteInfo = Vakitler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75A45D182B220A5100FC9574 /* Vakitler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vakitler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A45D1B2B220A5100FC9574 /* VakitlerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VakitlerApp.swift; sourceTree = "<group>"; };
+		75A45D1D2B220A5100FC9574 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		75A45D1F2B220A5200FC9574 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75A45D222B220A5200FC9574 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		75A45D282B220A5200FC9574 /* VakitlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VakitlerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A45D2C2B220A5200FC9574 /* VakitlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VakitlerTests.swift; sourceTree = "<group>"; };
+		75A45D322B220A5300FC9574 /* VakitlerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VakitlerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A45D362B220A5300FC9574 /* VakitlerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VakitlerUITests.swift; sourceTree = "<group>"; };
+		75A45D382B220A5300FC9574 /* VakitlerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VakitlerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75A45D152B220A5100FC9574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A45D252B220A5200FC9574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A45D2F2B220A5300FC9574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75A45D0F2B220A5100FC9574 = {
+			isa = PBXGroup;
+			children = (
+				75A45D1A2B220A5100FC9574 /* Vakitler */,
+				75A45D2B2B220A5200FC9574 /* VakitlerTests */,
+				75A45D352B220A5300FC9574 /* VakitlerUITests */,
+				75A45D192B220A5100FC9574 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75A45D192B220A5100FC9574 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75A45D182B220A5100FC9574 /* Vakitler.app */,
+				75A45D282B220A5200FC9574 /* VakitlerTests.xctest */,
+				75A45D322B220A5300FC9574 /* VakitlerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75A45D1A2B220A5100FC9574 /* Vakitler */ = {
+			isa = PBXGroup;
+			children = (
+				75A45D1B2B220A5100FC9574 /* VakitlerApp.swift */,
+				75A45D1D2B220A5100FC9574 /* ContentView.swift */,
+				75A45D1F2B220A5200FC9574 /* Assets.xcassets */,
+				75A45D212B220A5200FC9574 /* Preview Content */,
+			);
+			path = Vakitler;
+			sourceTree = "<group>";
+		};
+		75A45D212B220A5200FC9574 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				75A45D222B220A5200FC9574 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		75A45D2B2B220A5200FC9574 /* VakitlerTests */ = {
+			isa = PBXGroup;
+			children = (
+				75A45D2C2B220A5200FC9574 /* VakitlerTests.swift */,
+			);
+			path = VakitlerTests;
+			sourceTree = "<group>";
+		};
+		75A45D352B220A5300FC9574 /* VakitlerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				75A45D362B220A5300FC9574 /* VakitlerUITests.swift */,
+				75A45D382B220A5300FC9574 /* VakitlerUITestsLaunchTests.swift */,
+			);
+			path = VakitlerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75A45D172B220A5100FC9574 /* Vakitler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75A45D3C2B220A5300FC9574 /* Build configuration list for PBXNativeTarget "Vakitler" */;
+			buildPhases = (
+				75A45D142B220A5100FC9574 /* Sources */,
+				75A45D152B220A5100FC9574 /* Frameworks */,
+				75A45D162B220A5100FC9574 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vakitler;
+			productName = Vakitler;
+			productReference = 75A45D182B220A5100FC9574 /* Vakitler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75A45D272B220A5200FC9574 /* VakitlerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75A45D3F2B220A5300FC9574 /* Build configuration list for PBXNativeTarget "VakitlerTests" */;
+			buildPhases = (
+				75A45D242B220A5200FC9574 /* Sources */,
+				75A45D252B220A5200FC9574 /* Frameworks */,
+				75A45D262B220A5200FC9574 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75A45D2A2B220A5200FC9574 /* PBXTargetDependency */,
+			);
+			name = VakitlerTests;
+			productName = VakitlerTests;
+			productReference = 75A45D282B220A5200FC9574 /* VakitlerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75A45D312B220A5300FC9574 /* VakitlerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75A45D422B220A5300FC9574 /* Build configuration list for PBXNativeTarget "VakitlerUITests" */;
+			buildPhases = (
+				75A45D2E2B220A5300FC9574 /* Sources */,
+				75A45D2F2B220A5300FC9574 /* Frameworks */,
+				75A45D302B220A5300FC9574 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75A45D342B220A5300FC9574 /* PBXTargetDependency */,
+			);
+			name = VakitlerUITests;
+			productName = VakitlerUITests;
+			productReference = 75A45D322B220A5300FC9574 /* VakitlerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75A45D102B220A5100FC9574 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					75A45D172B220A5100FC9574 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					75A45D272B220A5200FC9574 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 75A45D172B220A5100FC9574;
+					};
+					75A45D312B220A5300FC9574 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 75A45D172B220A5100FC9574;
+					};
+				};
+			};
+			buildConfigurationList = 75A45D132B220A5100FC9574 /* Build configuration list for PBXProject "Vakitler" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75A45D0F2B220A5100FC9574;
+			productRefGroup = 75A45D192B220A5100FC9574 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75A45D172B220A5100FC9574 /* Vakitler */,
+				75A45D272B220A5200FC9574 /* VakitlerTests */,
+				75A45D312B220A5300FC9574 /* VakitlerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75A45D162B220A5100FC9574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A45D232B220A5200FC9574 /* Preview Assets.xcassets in Resources */,
+				75A45D202B220A5200FC9574 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A45D262B220A5200FC9574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A45D302B220A5300FC9574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75A45D142B220A5100FC9574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A45D1E2B220A5100FC9574 /* ContentView.swift in Sources */,
+				75A45D1C2B220A5100FC9574 /* VakitlerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A45D242B220A5200FC9574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A45D2D2B220A5200FC9574 /* VakitlerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A45D2E2B220A5300FC9574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A45D392B220A5300FC9574 /* VakitlerUITestsLaunchTests.swift in Sources */,
+				75A45D372B220A5300FC9574 /* VakitlerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75A45D2A2B220A5200FC9574 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75A45D172B220A5100FC9574 /* Vakitler */;
+			targetProxy = 75A45D292B220A5200FC9574 /* PBXContainerItemProxy */;
+		};
+		75A45D342B220A5300FC9574 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75A45D172B220A5100FC9574 /* Vakitler */;
+			targetProxy = 75A45D332B220A5300FC9574 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		75A45D3A2B220A5300FC9574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75A45D3B2B220A5300FC9574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75A45D3D2B220A5300FC9574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Vakitler/Preview Content\"";
+				DEVELOPMENT_TEAM = WHB8AY66F3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = barixmen.Vakitler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		75A45D3E2B220A5300FC9574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Vakitler/Preview Content\"";
+				DEVELOPMENT_TEAM = WHB8AY66F3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = barixmen.Vakitler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		75A45D402B220A5300FC9574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WHB8AY66F3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = barixmen.VakitlerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vakitler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vakitler";
+			};
+			name = Debug;
+		};
+		75A45D412B220A5300FC9574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WHB8AY66F3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = barixmen.VakitlerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vakitler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vakitler";
+			};
+			name = Release;
+		};
+		75A45D432B220A5300FC9574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WHB8AY66F3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = barixmen.VakitlerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Vakitler;
+			};
+			name = Debug;
+		};
+		75A45D442B220A5300FC9574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WHB8AY66F3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = barixmen.VakitlerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Vakitler;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75A45D132B220A5100FC9574 /* Build configuration list for PBXProject "Vakitler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75A45D3A2B220A5300FC9574 /* Debug */,
+				75A45D3B2B220A5300FC9574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75A45D3C2B220A5300FC9574 /* Build configuration list for PBXNativeTarget "Vakitler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75A45D3D2B220A5300FC9574 /* Debug */,
+				75A45D3E2B220A5300FC9574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75A45D3F2B220A5300FC9574 /* Build configuration list for PBXNativeTarget "VakitlerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75A45D402B220A5300FC9574 /* Debug */,
+				75A45D412B220A5300FC9574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75A45D422B220A5300FC9574 /* Build configuration list for PBXNativeTarget "VakitlerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75A45D432B220A5300FC9574 /* Debug */,
+				75A45D442B220A5300FC9574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75A45D102B220A5100FC9574 /* Project object */;
+}
