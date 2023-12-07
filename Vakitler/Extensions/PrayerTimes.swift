@@ -36,9 +36,21 @@ enum PrayerTimes: String {
     }
     
     var icons : Image {
-        return Image(rawValue)
-       
-    }
+        switch self {
+        case .fajr:
+            return Image("fajr")
+        case .sun:
+            return Image("sun")
+        case .dhuhr:
+            return Image("dhuhr")
+        case .asr:
+            return Image("asr")
+        case .maghrib:
+            return Image("maghrib")
+        case .isha:
+            return Image("isha")
+        }
+}
     
     var displayTime: String {
         switch self {

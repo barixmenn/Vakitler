@@ -18,6 +18,7 @@
 		75A45D492B220F3000FC9574 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A45D482B220F3000FC9574 /* Color.swift */; };
 		75A45D4B2B220FE900FC9574 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A45D4A2B220FE900FC9574 /* Font.swift */; };
 		75A45D4E2B22122800FC9574 /* PrayerListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A45D4D2B22122800FC9574 /* PrayerListItem.swift */; };
+		75D97D2C2B2252A5005CEB0C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75D97D2E2B2252A5005CEB0C /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		75A45D482B220F3000FC9574 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		75A45D4A2B220FE900FC9574 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		75A45D4D2B22122800FC9574 /* PrayerListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerListItem.swift; sourceTree = "<group>"; };
+		75D97D2D2B2252A5005CEB0C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		75D97D2F2B2252AA005CEB0C /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,7 @@
 		75A45D0F2B220A5100FC9574 = {
 			isa = PBXGroup;
 			children = (
+				75D97D2E2B2252A5005CEB0C /* Localizable.strings */,
 				75A45D1A2B220A5100FC9574 /* Vakitler */,
 				75A45D2B2B220A5200FC9574 /* VakitlerTests */,
 				75A45D352B220A5300FC9574 /* VakitlerUITests */,
@@ -241,6 +245,7 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = 75A45D0F2B220A5100FC9574;
 			productRefGroup = 75A45D192B220A5100FC9574 /* Products */;
@@ -260,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75A45D232B220A5200FC9574 /* Preview Assets.xcassets in Resources */,
+				75D97D2C2B2252A5005CEB0C /* Localizable.strings in Resources */,
 				75A45D202B220A5200FC9574 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,6 +331,18 @@
 			targetProxy = 75A45D332B220A5300FC9574 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75D97D2E2B2252A5005CEB0C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75D97D2D2B2252A5005CEB0C /* en */,
+				75D97D2F2B2252AA005CEB0C /* tr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		75A45D3A2B220A5300FC9574 /* Debug */ = {

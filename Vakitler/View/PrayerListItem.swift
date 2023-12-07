@@ -39,29 +39,6 @@ struct PrayerListItem: View {
 
 struct PrayerListItem_Previews: PreviewProvider {
     static var previews: some View {
-        let currentPreviewTime: PrayerTimes = .fajr
-    
-        
-        VStack (spacing : 0){
-            
-            PrayerListItem(currentTime: currentPreviewTime, time:.fajr)
-                .previewLayout(PreviewLayout
-                    .fixed(width: 375, height: 78))
-            PrayerListItem(currentTime: currentPreviewTime, time:.sun)
-                .previewLayout(PreviewLayout
-                    .fixed(width: 375, height: 78))
-            PrayerListItem(currentTime: currentPreviewTime, time:.dhuhr)
-                .previewLayout(PreviewLayout
-                    .fixed(width: 375, height: 78))
-            PrayerListItem(currentTime: currentPreviewTime, time:.asr)
-                .previewLayout(PreviewLayout
-                    .fixed(width: 375, height: 78))
-            PrayerListItem(currentTime: currentPreviewTime, time:.maghrib)
-                .previewLayout(PreviewLayout
-                    .fixed(width: 375, height: 78))
-            PrayerListItem(currentTime: currentPreviewTime, time:.isha)
-                .previewLayout(PreviewLayout
-                    .fixed(width: 375, height: 78))
-        }
+      PrayerListItem()
     }
 }
