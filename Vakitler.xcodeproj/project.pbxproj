@@ -14,6 +14,10 @@
 		75A45D2D2B220A5200FC9574 /* VakitlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A45D2C2B220A5200FC9574 /* VakitlerTests.swift */; };
 		75A45D372B220A5300FC9574 /* VakitlerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A45D362B220A5300FC9574 /* VakitlerUITests.swift */; };
 		75A45D392B220A5300FC9574 /* VakitlerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A45D382B220A5300FC9574 /* VakitlerUITestsLaunchTests.swift */; };
+		75A45D472B220EC300FC9574 /* PrayerTimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A45D462B220EC300FC9574 /* PrayerTimes.swift */; };
+		75A45D492B220F3000FC9574 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A45D482B220F3000FC9574 /* Color.swift */; };
+		75A45D4B2B220FE900FC9574 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A45D4A2B220FE900FC9574 /* Font.swift */; };
+		75A45D4E2B22122800FC9574 /* PrayerListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A45D4D2B22122800FC9574 /* PrayerListItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		75A45D322B220A5300FC9574 /* VakitlerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VakitlerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75A45D362B220A5300FC9574 /* VakitlerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VakitlerUITests.swift; sourceTree = "<group>"; };
 		75A45D382B220A5300FC9574 /* VakitlerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VakitlerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		75A45D462B220EC300FC9574 /* PrayerTimes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimes.swift; sourceTree = "<group>"; };
+		75A45D482B220F3000FC9574 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		75A45D4A2B220FE900FC9574 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		75A45D4D2B22122800FC9574 /* PrayerListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerListItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,8 @@
 		75A45D1A2B220A5100FC9574 /* Vakitler */ = {
 			isa = PBXGroup;
 			children = (
+				75A45D4C2B22121E00FC9574 /* View */,
+				75A45D452B220EB200FC9574 /* Extensions */,
 				75A45D1B2B220A5100FC9574 /* VakitlerApp.swift */,
 				75A45D1D2B220A5100FC9574 /* ContentView.swift */,
 				75A45D1F2B220A5200FC9574 /* Assets.xcassets */,
@@ -125,6 +135,24 @@
 				75A45D382B220A5300FC9574 /* VakitlerUITestsLaunchTests.swift */,
 			);
 			path = VakitlerUITests;
+			sourceTree = "<group>";
+		};
+		75A45D452B220EB200FC9574 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				75A45D462B220EC300FC9574 /* PrayerTimes.swift */,
+				75A45D482B220F3000FC9574 /* Color.swift */,
+				75A45D4A2B220FE900FC9574 /* Font.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		75A45D4C2B22121E00FC9574 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				75A45D4D2B22122800FC9574 /* PrayerListItem.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +285,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75A45D472B220EC300FC9574 /* PrayerTimes.swift in Sources */,
+				75A45D492B220F3000FC9574 /* Color.swift in Sources */,
+				75A45D4B2B220FE900FC9574 /* Font.swift in Sources */,
+				75A45D4E2B22122800FC9574 /* PrayerListItem.swift in Sources */,
 				75A45D1E2B220A5100FC9574 /* ContentView.swift in Sources */,
 				75A45D1C2B220A5100FC9574 /* VakitlerApp.swift in Sources */,
 			);
